@@ -5,9 +5,8 @@ Using R to Perform a Statistical Analysis on Prototype Production Vehicles
 ## Linear Regression to Predict MPG
 
 
-Coefficients:
 
-|&emsp;&emsp;&emsp;|Estimate    |Std. Error  |t value |Pr(>|t|)   |&emsp;|
+|Column |Estimate    |Std. Error  |t value |Pr(>|t|)   |&emsp;|
 |------------------|------------|------------|--------|-----------|----|
 |(Intercept)       |-1.040e+02  |1.585e+01   |-6.559  |5.08e-0    |*** |
 |vehicle_length    |6.267e+00   |6.553e-01   |9.563   |2.60e-12   |*** |
