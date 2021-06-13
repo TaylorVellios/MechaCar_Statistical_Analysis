@@ -4,6 +4,18 @@ Using R to Perform a Statistical Analysis on Prototype Production Vehicles
 
 ## Linear Regression to Predict MPG
 
+Using the following table structure loaded into a variable named *mpg_data*, the first task is to use a Multiple Linear Regression model to determine if there is a relationship between the MPG column and other columns.</br>
+
+![deliv1 table](https://user-images.githubusercontent.com/14188580/121822791-a0b6d800-cc66-11eb-9460-df3e780636e7.PNG)
+
+The following code will provide us with the p-values needed to determine the statistical significance between each factor.</br>
+
+```
+options(scipen = 50)
+model <- lm(mpg ~ ., data=mpg_data)
+summary(model)
+```
+*Which outputs as:*
 Coefficients:
 
 
@@ -15,3 +27,7 @@ Coefficients:
 |spoiler_angle     |0.068766      |6.653e-02   |1.034   |0.3069     |   |
 |ground_clearance  |3.545534       |5.412e-01   |6.551   |0.0000000521269   |*** |
 |AWD               |-3.411499  |2.535e+00   |-1.346  |0.1852     |  |
+</br>
+
+Looking at the right-most column with numerical data, *vehicle_length* as well as *ground_clearance* both output VERY low p-values that indicate a significant relationship between them and the prototype vehicles' MPG metric.</br>
+
