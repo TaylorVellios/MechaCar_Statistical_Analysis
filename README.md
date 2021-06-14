@@ -31,3 +31,21 @@ Coefficients:
 
 Looking at the right-most column with numerical data, *vehicle_length* as well as *ground_clearance* both output VERY low p-values that indicate a significant relationship between them and the prototype vehicles' MPG metric.</br>
 
+Plotting both of these shows dimensions against MPG with our model shows a noticeable relationship:
+
+Ground Clearance:
+
+![ground_clearance](https://user-images.githubusercontent.com/14188580/121827898-70c9fd80-cc83-11eb-82b7-14faa341cac8.png)
+
+Vehicle Length:
+
+![vehicle_length](https://user-images.githubusercontent.com/14188580/121827906-77f10b80-cc83-11eb-9931-ac49f02d71dc.png)
+
+
+
+
+
+
+
+
+## Summary Statistics on Suspension Coils
