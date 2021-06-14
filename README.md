@@ -35,17 +35,42 @@ Plotting both of these shows dimensions against MPG with our model shows a notic
 
 Ground Clearance:
 
-![ground_clearance](https://user-images.githubusercontent.com/14188580/121827898-70c9fd80-cc83-11eb-82b7-14faa341cac8.png)
+![ground_clearance](https://user-images.githubusercontent.com/14188580/121828853-78d76c80-cc86-11eb-80c5-3a3d11f18b9a.png)
 
 Vehicle Length:
 
-![vehicle_length](https://user-images.githubusercontent.com/14188580/121827906-77f10b80-cc83-11eb-9931-ac49f02d71dc.png)
+![vehicle_length](https://user-images.githubusercontent.com/14188580/121828855-7b39c680-cc86-11eb-96be-b8d1ae258a1f.png)
 
 
 
 
-
+<br></br>
 
 
 
 ## Summary Statistics on Suspension Coils
+
+#### Total Summary
+||Mean| Median| Variance| SD|
+|-|---|-------|---------|---|
+1| 1498.78| 1500| 62.29356| 7.892627|
+
+
+Lot Summary
+|Manufacturing_Lot |Mean| Median| Variance| SD|
+|------------------|----|-------|--------|----|
+|1 |Lot1| 1500.00| 1500.0| 0.9795918|0.9897433|
+|2 |Lot2| 1500.20| 1500.0| 7.4693878| 2.7330181|
+|3| Lot3| 1496.14| 1498.5| 170.2861224| 13.0493725|
+
+
+
+<br></br>
+
+## T-Tests on Suspension Coils
+
+
+
+<br></br>
+
+## Study Design: MechaCar vs Competition
